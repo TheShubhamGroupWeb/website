@@ -23,3 +23,21 @@ function openNav() {
     window.addEventListener('scroll', () => {
       document.getElementById('nav').classList.toggle('window-scroll', window.scrollY > 100)
     })
+
+
+    // swipper
+    var swiper = new Swiper(".mySwiper", {
+      loop: true,
+      slidesPerView: 5,
+      spaceBetween: 40,
+      autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+      },
+      grabCursor: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  

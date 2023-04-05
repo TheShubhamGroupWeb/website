@@ -284,6 +284,61 @@
     padding: 0.4rem;
 }
 
+
+/* cards starts from here */
+
+
+
+.our-projects{
+    text-align: center;
+    margin: 1rem;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    padding: 0.4rem;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+
+  }
+
+  .swiper h1{
+    text-align: center;
+    margin: 1rem;
+    color: #ccc;
+    padding: 1rem;
+  }
+
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* object-fit: ; */
+  }
+
+
+
+
+
+/* cards end */
+
 /* responsive media query */
 
 @media (min-width: 1020px) {
@@ -300,3 +355,5 @@
     }
 
 }
+
+
